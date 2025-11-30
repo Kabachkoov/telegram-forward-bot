@@ -4,10 +4,12 @@ from telethon import TelegramClient, events
 try:
     from config import api_id, api_hash, bot_token, source_channel, destination_channel
 except ImportError:
-    print("❌ Создай файл config.py на основе config.example.py")
+    print("❌ Файл config.py не найден!")
+    print("📝 Создай config.py на основе config.example.py и заполни своими данными")
     exit(1)
 
 async def main():
+    # остальной код без изменений...
     # остальной код без изменений...
 async def main():
     print("🔄 Запускаю бота...")
