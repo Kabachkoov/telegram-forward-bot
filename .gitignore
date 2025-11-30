@@ -1,0 +1,5 @@
+config.py
+bot_session.session
+__pycache__/
+*.pyc
+.env
